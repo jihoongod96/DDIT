@@ -11,6 +11,7 @@
 </c:if>
 <c:if test="${not empty principal }">
 	<p>${principal.realUser.userId }</p>
+	<p>test</p>
 </c:if>
 ${principal.realUser.student }
 
